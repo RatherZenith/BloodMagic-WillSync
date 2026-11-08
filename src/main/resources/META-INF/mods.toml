@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="bmwillsync"
+version="1.0.0"
+displayName="BM Will Sync"
+authors="ZR4U"
+displayTest="IGNORE_ALL_VERSION"
+description='''Dual-side optional Blood Magic addon: server-side Aura Gauge sync every tick, client-side inverted Shift number display.'''
+
+[[dependencies.bmwillsync]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.bmwillsync]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.bmwillsync]]
+modId="bloodmagic"
+mandatory=true
+versionRange="[3.3.0-42,4)"
+ordering="NONE"
+side="BOTH"
